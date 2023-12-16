@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="core.DependsOnMethod">
+      <class name="test.AssertClass">
         <methods>
-          <include name="afterMethod"/>
-          <include name="loginTestCase"/>
           <include name="beforeMethod"/>
-          <include name="logoutTestCase"/>
-          <include name="loginVerification"/>
+          <include name="loginTestCase"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- core.DependsOnMethod -->
+      </class> <!-- test.AssertClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
