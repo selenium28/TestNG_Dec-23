@@ -1,38 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-16T09:05:33 IST" name="Suite" finished-at="2023-12-16T09:05:33 IST" duration-ms="157">
+  <suite started-at="2023-12-18T08:48:14 IST" name="Suite" finished-at="2023-12-18T08:48:53 IST" duration-ms="38993">
     <groups>
-      <group name="regression">
-        <method signature="GroupsClass.testCaseFour()[pri:0, instance:test.GroupsClass@60d8c9b7]" name="testCaseFour" class="test.GroupsClass"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="GroupsClass.testCaseFour()[pri:0, instance:test.GroupsClass@60d8c9b7]" name="testCaseFour" class="test.GroupsClass"/>
-        <method signature="GroupsClass.testCaseOne()[pri:0, instance:test.GroupsClass@60d8c9b7]" name="testCaseOne" class="test.GroupsClass"/>
-        <method signature="GroupsClass.testCaseThree()[pri:0, instance:test.GroupsClass@60d8c9b7]" name="testCaseThree" class="test.GroupsClass"/>
-        <method signature="GroupsClass.testCaseTwo()[pri:0, instance:test.GroupsClass@60d8c9b7]" name="testCaseTwo" class="test.GroupsClass"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-12-16T09:05:33 IST" name="Test" finished-at="2023-12-16T09:05:33 IST" duration-ms="157">
-      <class name="test.GroupsClass">
-        <test-method signature="testCaseFour()[pri:0, instance:test.GroupsClass@60d8c9b7]" started-at="2023-12-16T09:05:33 IST" name="testCaseFour" finished-at="2023-12-16T09:05:33 IST" duration-ms="32" status="PASS">
+    <test started-at="2023-12-18T08:48:14 IST" name="Test" finished-at="2023-12-18T08:48:53 IST" duration-ms="38993">
+      <class name="test.ParameterClass">
+        <test-method signature="browserLaunch(java.lang.String)[pri:0, instance:test.ParameterClass@3967e60c]" started-at="2023-12-18T08:48:14 IST" name="browserLaunch" finished-at="2023-12-18T08:48:53 IST" duration-ms="38947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCaseFour -->
-        <test-method signature="testCaseOne()[pri:0, instance:test.GroupsClass@60d8c9b7]" started-at="2023-12-16T09:05:33 IST" name="testCaseOne" finished-at="2023-12-16T09:05:33 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseOne -->
-        <test-method signature="testCaseThree()[pri:0, instance:test.GroupsClass@60d8c9b7]" started-at="2023-12-16T09:05:33 IST" name="testCaseThree" finished-at="2023-12-16T09:05:33 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseThree -->
-        <test-method signature="testCaseTwo()[pri:0, instance:test.GroupsClass@60d8c9b7]" started-at="2023-12-16T09:05:33 IST" name="testCaseTwo" finished-at="2023-12-16T09:05:33 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseTwo -->
-      </class> <!-- test.GroupsClass -->
+        </test-method> <!-- browserLaunch -->
+      </class> <!-- test.ParameterClass -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
