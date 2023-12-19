@@ -1,24 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-18T08:48:14 IST" name="Suite" finished-at="2023-12-18T08:48:53 IST" duration-ms="38993">
+  <suite started-at="2023-12-19T08:57:11 IST" name="Default suite" finished-at="2023-12-19T08:58:51 IST" duration-ms="100155">
     <groups>
     </groups>
-    <test started-at="2023-12-18T08:48:14 IST" name="Test" finished-at="2023-12-18T08:48:53 IST" duration-ms="38993">
-      <class name="test.ParameterClass">
-        <test-method signature="browserLaunch(java.lang.String)[pri:0, instance:test.ParameterClass@3967e60c]" started-at="2023-12-18T08:48:14 IST" name="browserLaunch" finished-at="2023-12-18T08:48:53 IST" duration-ms="38947" status="PASS">
+    <test started-at="2023-12-19T08:57:11 IST" name="Default test" finished-at="2023-12-19T08:58:51 IST" duration-ms="100155">
+      <class name="test.DataProviderLogin">
+        <test-method signature="loginMethod(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderLogin@6af93788]" started-at="2023-12-19T08:57:11 IST" name="loginMethod" data-provider="dataProvider" finished-at="2023-12-19T08:58:06 IST" duration-ms="54705" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserLaunch -->
-      </class> <!-- test.ParameterClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginMethod -->
+        <test-method signature="loginMethod(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderLogin@6af93788]" started-at="2023-12-19T08:58:06 IST" name="loginMethod" data-provider="dataProvider" finished-at="2023-12-19T08:58:51 IST" duration-ms="45393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+      </class> <!-- test.DataProviderLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
